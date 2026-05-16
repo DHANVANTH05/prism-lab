@@ -61,9 +61,19 @@ export default function HomePage() {
             <div>
               <div className="section-label mb-3"><div className="w-8 h-px bg-[#39e07a]" /> About the Lab</div>
               <h2 className="font-display italic text-4xl text-[#0f2044] dark:text-white mb-5">Advancing Secure Systems Research</h2>
-              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-4">PRISM Lab at IIT Guwahati is a premier research group focused on building the next generation of secure, resilient computing systems. We work at the cutting edge of hardware security, lightweight cryptography, reconfigurable computing, and AI-driven threat intelligence.</p>
-              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-4">Our research spans energy-efficient System on Chip (SoC) architectures, ultra-low power computing platforms for IoT, and coarse-grained reconfigurable array (CGRA) designs for bridging the gap between silicon-level efficiency and application-layer security.</p>
-              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-6">Our interdisciplinary team brings together expertise from Computer Science, Electronics, and Electrical Engineering. We welcome students from CSE, ECE, and EEE backgrounds.</p>
+              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-4">PRISM Lab focuses on the design of next-generation computing systems that 
+                  are energy-efficient, secure, resilient, and intelligent by construction.
+                  We conduct research at the intersection of computer architecture, embedded
+                  systems, reconfigurable computing, AI acceleration, edge intelligence,
+                  hardware security, and cyber-physical systems.</p>
+              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-4">Our work aims to develop computing platforms that efficiently support modern
+                  AI workloads while ensuring robustness against failures, attacks, and
+                  real-world deployment constraints. We explore innovations across the full
+                  system stack from hardware architecture and compiler support to secure
+                  deployment, intelligent sensing, and trustworthy edge AI.</p>
+              <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-6">  The broader vision of PRISM Lab is to enable sustainable, dependable, and
+                  secure intelligent machines for applications in healthcare, agriculture,
+                  autonomous systems, IoT, cybersecurity, and next-generation AI infrastructure.</p>
               <Link to="/research" className="inline-flex items-center gap-2 border border-[#0f2044]/30 dark:border-white/20 text-[#0f2044] dark:text-white font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-[#0f2044]/5 dark:hover:bg-white/5 transition-all">
                 Our Research Areas <ChevronRight className="w-4 h-4" />
               </Link>
