@@ -392,7 +392,7 @@ export const students = [
   },
   {
     id: "9",
-    name: "Pavan Pendurti",
+    name: "Pavan Pendurthi",
     program: "Intern",
     year: 1,
     researchArea: "",
