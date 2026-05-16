@@ -24,7 +24,7 @@ export default function StudentsPage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> People <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display text-5xl text-white mb-4">Current Students</h1>
+          <h1 className="font-body font-bold text-5xl text-white mb-4">Current Students</h1>
           <p className="text-white/60 max-w-xl mx-auto">
             Our talented team of researchers driving innovation in cybersecurity
             and secure systems design.
@@ -38,7 +38,7 @@ export default function StudentsPage() {
               <div key={group.label}>
                 <div className="flex items-center gap-3 mb-7">
                   <GraduationCap className="w-5 h-5 text-[#0f2044] dark:text-white" />
-                  <h2 className="font-display text-2xl text-[#0f2044] dark:text-white">
+                  <h2 className="font-body font-bold text-2xl text-[#0f2044] dark:text-white">
                     {group.label}
                   </h2>
                   <span className="text-xs font-semibold bg-[#0f2044]/8 dark:bg-white/10 text-[#0f2044]/60 dark:text-white/50 px-2.5 py-0.5 rounded-full">
@@ -59,14 +59,14 @@ export default function StudentsPage() {
                             className="w-full h-full object-cover object-top"
                           />
                         ) : (
-                          <div className="w-full h-full flex items-center justify-center text-[#0f2044] dark:text-white font-semibold text-3xl">
+                          <div className="w-full h-full flex items-center justify-center text-[#0f2044] dark:text-white font-bold text-3xl">
                             {student.name.split(' ').map((n) => n[0]).join('').slice(0, 2)}
                           </div>
                         )}
                       </div>
                       <div className="p-5">
                         <div className="flex items-start justify-between gap-2 mb-2">
-                          <h3 className="font-semibold text-[#0f2044] dark:text-white">
+                          <h3 className="font-body font-semibold text-[#0f2044] dark:text-white">
                             {student.name}
                           </h3>
                           <span
