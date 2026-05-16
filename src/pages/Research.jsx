@@ -11,7 +11,7 @@ export default function ResearchPage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> Research & Innovation <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Research</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Research</h1>
           <p className="text-white/60 max-w-xl mx-auto">Our research spans the full spectrum of secure systems — from silicon-level hardware to application-layer protocols.</p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default function ResearchPage() {
       </section>
       <section className="py-16 bg-white dark:bg-[#0d1426]">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="font-display italic text-3xl text-[#0f2044] dark:text-white mb-3">Funded Projects & Collaborations</h2>
+          <h2 className="font-display text-3xl text-[#0f2044] dark:text-white mb-3">Funded Projects & Collaborations</h2>
           <p className="text-[#6b7a94] dark:text-white/50 mb-10 max-w-xl mx-auto">Our research is supported by prestigious national and international funding agencies and industry partners.</p>
           <div className="flex flex-wrap gap-4 justify-center">
             {fundedProjects.map((project) => (
