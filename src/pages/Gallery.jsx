@@ -41,7 +41,7 @@ export default function GalleryPage() {
             <div className="w-8 h-px bg-[#39e07a]" /> Visual Archive{' '}
             <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display text-5xl text-white mb-4">Gallery</h1>
+          <h1 className="font-body font-bold text-5xl text-white mb-4">Gallery</h1>
           <p className="text-white/60 max-w-xl mx-auto">
             Moments from our research activities, lab events, workshops, and campus
             life at PRISM Lab.
@@ -124,7 +124,6 @@ export default function GalleryPage() {
           onKeyDown={handleKeyDown}
           tabIndex={0}
         >
-          {/* Close button */}
           <button
             className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-all z-10"
             onClick={closeLightbox}
@@ -132,7 +131,6 @@ export default function GalleryPage() {
             <X className="w-5 h-5" />
           </button>
 
-          {/* Prev button */}
           <button
             className="absolute left-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-all z-10"
             onClick={(e) => { e.stopPropagation(); goPrev() }}
@@ -140,7 +138,6 @@ export default function GalleryPage() {
             <ChevronLeft className="w-5 h-5" />
           </button>
 
-          {/* Image */}
           <div
             className="max-w-5xl max-h-[85vh] mx-16 flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
@@ -162,13 +159,18 @@ export default function GalleryPage() {
               </div>
             )}
             <div className="mt-4 text-center">
-              <p className="text-white font-medium">{filtered[selectedIndex].caption}</p>
-              <p className="text-white/50 text-sm mt-1">{filtered[selectedIndex].category}</p>
-              <p className="text-white/30 text-xs mt-1">{selectedIndex + 1} / {filtered.length}</p>
+              <p className="font-body font-medium text-white">
+                {filtered[selectedIndex].caption}
+              </p>
+              <p className="font-body text-white/50 text-sm mt-1">
+                {filtered[selectedIndex].category}
+              </p>
+              <p className="font-body text-white/30 text-xs mt-1">
+                {selectedIndex + 1} / {filtered.length}
+              </p>
             </div>
           </div>
 
-          {/* Next button */}
           <button
             className="absolute right-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-all z-10"
             onClick={(e) => { e.stopPropagation(); goNext() }}
