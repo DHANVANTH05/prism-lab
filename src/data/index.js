@@ -314,7 +314,7 @@ export const students = [
     researchArea: "Coarse-Grained Reconfigurable Array",
     email: "a.neogi@iitg.ac.in",
     isAlumni: false,
-    photo: "/images/abhishek-neogi.jpg",
+    photo: "/images/Abhishek.jpg",
   },
   {
     id: "2",
