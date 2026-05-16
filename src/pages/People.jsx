@@ -9,7 +9,7 @@ export default function PeoplePage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> Principal Investigator <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Lab Director</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Lab Director</h1>
         </div>
       </div>
       <section className="py-20 bg-[#f4f6f8] dark:bg-[#0a0f1e]">
@@ -17,10 +17,10 @@ export default function PeoplePage() {
           <div className="bg-white dark:bg-[#0d1a2e] rounded-3xl border border-gray-100 dark:border-white/10 shadow-sm p-8 md:p-10 flex flex-col md:flex-row gap-8 items-start">
             <div className="w-40 h-40 rounded-2xl overflow-hidden bg-[#0f2044]/5 dark:bg-white/5 flex-shrink-0 flex items-center justify-center">
               <img src={director.photo} alt={director.name} className="w-full h-full object-cover"
-                onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML=`<span class="font-display italic text-5xl text-[#0f2044]/20 dark:text-white/20">SD</span>` }} />
+                onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML=`<span class="font-display text-5xl text-[#0f2044]/20 dark:text-white/20">SD</span>` }} />
             </div>
             <div className="flex-1">
-              <h2 className="font-display italic text-4xl text-[#0f2044] dark:text-white mb-1">{director.name}</h2>
+              <h2 className="font-display text-4xl text-[#0f2044] dark:text-white mb-1">{director.name}</h2>
               <p className="font-semibold text-[#0f2044] dark:text-white mb-0.5">{director.title}</p>
               <p className="font-semibold text-[#0f2044]/60 dark:text-white/40 mb-5">{director.department}</p>
               <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-6">{director.bio}</p>

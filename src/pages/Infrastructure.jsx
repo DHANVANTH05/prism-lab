@@ -11,7 +11,7 @@ export default function InfrastructurePage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> Facilities <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Infrastructure</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Infrastructure</h1>
           <p className="text-white/60 max-w-xl mx-auto">State-of-the-art research infrastructure enabling cutting-edge work in hardware security, cryptography, and cybersecurity.</p>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function InfrastructurePage() {
       </section>
       <section className="py-16 bg-white dark:bg-[#0d1426]">
         <div className="max-w-2xl mx-auto px-4 text-center">
-          <h2 className="font-display italic text-3xl text-[#0f2044] dark:text-white mb-4">Access & Collaboration</h2>
+          <h2 className="font-display text-3xl text-[#0f2044] dark:text-white mb-4">Access & Collaboration</h2>
           <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-6">PRISM Lab infrastructure is available to all lab members and affiliated researchers. For equipment access or collaborative research opportunities, please contact the lab.</p>
           <a href="mailto:prism-lab@iitg.ac.in" className="inline-flex items-center bg-[#0f2044] dark:bg-[#39e07a] text-white dark:text-[#0f2044] font-semibold px-7 py-3 rounded-full text-sm hover:opacity-90 transition-all">Request Access</a>
         </div>

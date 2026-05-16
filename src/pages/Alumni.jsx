@@ -12,7 +12,7 @@ export default function AlumniPage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> Alumni <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Alumni Network</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Alumni Network</h1>
           <p className="text-white/60 max-w-xl mx-auto">
             PRISM Lab alumni information will be updated as students graduate.
           </p>
@@ -25,7 +25,7 @@ export default function AlumniPage() {
               <div className="w-20 h-20 rounded-full bg-[#0f2044]/8 dark:bg-white/5 flex items-center justify-center mx-auto mb-5">
                 <GraduationCap className="w-9 h-9 text-[#0f2044]/40 dark:text-white/20" />
               </div>
-              <h2 className="font-display italic text-3xl text-[#0f2044] dark:text-white mb-4">
+              <h2 className="font-display text-3xl text-[#0f2044] dark:text-white mb-4">
                 No Alumni Yet
               </h2>
               <p className="text-[#6b7a94] dark:text-white/40 max-w-md mx-auto leading-relaxed">

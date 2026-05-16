@@ -41,7 +41,7 @@ export default function GalleryPage() {
             <div className="w-8 h-px bg-[#39e07a]" /> Visual Archive{' '}
             <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Gallery</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Gallery</h1>
           <p className="text-white/60 max-w-xl mx-auto">
             Moments from our research activities, lab events, workshops, and campus
             life at PRISM Lab.

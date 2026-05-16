@@ -17,7 +17,7 @@ export default function PublicationsPage() {
           <div className="section-label justify-center mb-4">
             <div className="w-8 h-px bg-[#39e07a]" /> Research Output <div className="w-8 h-px bg-[#39e07a]" />
           </div>
-          <h1 className="font-display italic text-5xl text-white mb-4">Publications</h1>
+          <h1 className="font-display text-5xl text-white mb-4">Publications</h1>
           <p className="text-white/60 max-w-xl mx-auto">Peer-reviewed papers published in top venues in security, cryptography, and systems research.</p>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function PublicationsPage() {
           {years.map((year) => (
             <div key={year}>
               <div className="flex items-center gap-3 mb-5">
-                <h2 className="font-display italic text-2xl text-[#0f2044] dark:text-white">{year}</h2>
+                <h2 className="font-display text-2xl text-[#0f2044] dark:text-white">{year}</h2>
                 <div className="flex-1 h-px bg-gray-200 dark:bg-white/10" />
                 <span className="text-xs text-[#6b7a94] dark:text-white/30">{byYear[year].length} paper{byYear[year].length > 1 ? 's' : ''}</span>
               </div>
