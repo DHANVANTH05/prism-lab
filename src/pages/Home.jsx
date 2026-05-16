@@ -28,7 +28,7 @@ export default function HomePage() {
           <h1 className="font-display font-bold text-white leading-none text-center relative z-10 mb-5" style={{fontSize: 'clamp(8rem, 28vw, 32rem)', width: '100%', letterSpacing: '0em'}}>PRISM</h1>
         <div className="text-center relative z-10 px-4">
           <p className="text-white/70 text-lg mb-3 font-medium">Power-aware Resilient Intelligent Secure Machines</p>
-          <p className="text-white/50 text-base max-w-2xl mx-auto mb-10 leading-relaxed">Pioneering research at the intersection of cybersecurity, cryptography, hardware security, and AI — building the secure systems of tomorrow.</p>
+          <p className="text-white/50 text-base max-w-2xl mx-auto mb-10 leading-relaxed">Designing intelligent, secure, and energy-aware systems for the next generation of computing</p>
         <div className="flex flex-wrap gap-4 justify-center">
         <Link to="/research" className="bg-[#39e07a] text-[#0f2044] font-semibold px-7 py-3 rounded-full text-sm hover:bg-[#39e07a]/90 transition-all flex items-center gap-2">
           Explore Research <ArrowRight className="w-4 h-4" />
