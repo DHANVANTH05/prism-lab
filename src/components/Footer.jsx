@@ -10,15 +10,15 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 rounded-full bg-[#39e07a]/20 flex items-center justify-center">
-                <span className="text-[#39e07a] font-display italic font-bold text-sm">P</span>
+                <span className="text-[#39e07a] font-display font-bold text-sm">P</span>
               </div>
               <div>
-                <div className="font-display italic text-lg text-white leading-tight">PRISM Lab</div>
+                <div className="font-display text-lg text-white leading-tight">PRISM Lab</div>
                 <div className="text-xs text-white/50 leading-tight">IIT Guwahati</div>
               </div>
             </div>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
-              Power-aware Resilient Intelligent Secure Machines — advancing research in cybersecurity, cryptography, and secure hardware systems.
+               Designing intelligent, secure, and energy-aware systems for the next generation of computing
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export default function Footer() {
                 <Phone className="w-3.5 h-3.5" /> XXXXXXX
               </a>
               <a href="mailto:prism-lab@iitg.ac.in" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Mail className="w-3.5 h-3.5" /> prism-lab@iitg.ac.in
+                <Mail className="w-3.5 h-3.5" /> xxxxx@iitg.ac.in
               </a>
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
