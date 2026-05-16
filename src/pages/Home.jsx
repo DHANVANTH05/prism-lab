@@ -46,7 +46,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {stats.map((s) => (
               <div key={s.label}>
-                <div className="font-display italic text-4xl text-[#0f2044] dark:text-white mb-1">{s.value}</div>
+                <div className="font-display text-4xl text-[#0f2044] dark:text-white mb-1">{s.value}</div>
                 <div className="text-sm text-[#6b7a94] dark:text-white/40">{s.label}</div>
               </div>
             ))}
@@ -99,15 +99,15 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="text-center mb-12">
             <div className="section-label justify-center mb-3"><div className="w-8 h-px bg-[#39e07a]" /> Principal Investigator <div className="w-8 h-px bg-[#39e07a]" /></div>
-            <h2 className="font-display italic text-4xl text-[#0f2044] dark:text-white">Lab Director</h2>
+            <h2 className="font-display text-4xl text-[#0f2044] dark:text-white">Lab Director</h2>
           </div>
           <div className="bg-white dark:bg-[#0d1a2e] rounded-3xl border border-gray-100 dark:border-white/10 shadow-sm p-8 flex flex-col md:flex-row gap-8 items-start">
             <div className="w-36 h-36 rounded-2xl overflow-hidden bg-[#0f2044]/5 dark:bg-white/5 flex-shrink-0 flex items-center justify-center">
               <img src={director.photo} alt={director.name} className="w-full h-full object-cover"
-                onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML=`<span class="font-display italic text-4xl text-[#0f2044]/30 dark:text-white/20">SD</span>` }} />
+                onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML=`<span class="font-display text-4xl text-[#0f2044]/30 dark:text-white/20">SD</span>` }} />
             </div>
             <div className="flex-1">
-              <h3 className="font-display italic text-3xl text-[#0f2044] dark:text-white mb-1">{director.name}</h3>
+              <h3 className="font-display text-3xl text-[#0f2044] dark:text-white mb-1">{director.name}</h3>
               <p className="font-semibold text-[#0f2044] dark:text-white text-sm mb-0.5">{director.title}</p>
               <p className="font-semibold text-[#0f2044]/70 dark:text-white/40 text-sm mb-4">{director.department}</p>
               <p className="text-[#6b7a94] dark:text-white/50 text-sm leading-relaxed mb-5">{director.bio}</p>
@@ -131,7 +131,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-10">
             <div>
               <div className="section-label mb-2"><div className="w-8 h-px bg-[#39e07a]" /> Latest Updates</div>
-              <h2 className="font-display italic text-3xl text-[#0f2044] dark:text-white">News & Announcements</h2>
+              <h2 className="font-display text-3xl text-[#0f2044] dark:text-white">News & Announcements</h2>
             </div>
             <Link to="/news" className="flex items-center gap-1 text-sm font-semibold text-[#0f2044] dark:text-white hover:text-[#39e07a] transition-colors">
               All News <ArrowRight className="w-4 h-4" />
@@ -143,7 +143,7 @@ export default function HomePage() {
               return (
                 <div key={item.id} className="bg-white dark:bg-[#0d1a2e] rounded-2xl border border-gray-100 dark:border-white/10 shadow-sm p-6 flex gap-5">
                   <div className="text-center min-w-[52px]">
-                    <div className="font-display italic text-2xl text-[#0f2044] dark:text-white leading-none">{d.getDate()}</div>
+                    <div className="font-display text-2xl text-[#0f2044] dark:text-white leading-none">{d.getDate()}</div>
                     <div className="text-xs text-[#6b7a94] dark:text-white/40 uppercase mt-0.5">{d.toLocaleDateString('en-IN', { month: 'short', year: 'numeric' })}</div>
                   </div>
                   <div className="flex-1 border-l border-gray-100 dark:border-white/10 pl-5">
@@ -166,7 +166,7 @@ export default function HomePage() {
       <section className="py-20 bg-[#0f2044]">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <div className="text-4xl mb-4">🎓 📖</div>
-          <h2 className="font-display italic text-4xl text-white mb-4">Join the PRISM Family</h2>
+          <h2 className="font-display text-4xl text-white mb-4">Join the PRISM Family</h2>
           <p className="text-white/60 mb-8 leading-relaxed">We welcome motivated students from CSE, ECE, and EEE backgrounds. Openings available for B.Tech projects, M.Tech theses, and PhD positions.</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/students" className="bg-[#39e07a] text-[#0f2044] font-semibold px-6 py-2.5 rounded-full text-sm hover:bg-[#39e07a]/90 transition-all">Meet Our Team</Link>
