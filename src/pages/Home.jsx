@@ -60,7 +60,6 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <div className="section-label mb-3"><div className="w-8 h-px bg-[#39e07a]" /> About the Lab</div>
-              <h2 className="font-display italic text-4xl text-[#0f2044] dark:text-white mb-5">Advancing Secure Systems Research</h2>
               <p className="text-[#6b7a94] dark:text-white/50 leading-relaxed mb-4">PRISM Lab focuses on the design of next-generation computing systems that 
                   are energy-efficient, secure, resilient, and intelligent by construction.
                   We conduct research at the intersection of computer architecture, embedded
