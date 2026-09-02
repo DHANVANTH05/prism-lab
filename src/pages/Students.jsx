@@ -5,16 +5,19 @@ const programColors = {
   PhD: 'bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border-blue-100 dark:border-blue-800',
   MTech: 'bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 border-green-100 dark:border-green-800',
   Intern: 'bg-orange-50 dark:bg-orange-900/20 text-orange-700 dark:text-orange-300 border-orange-100 dark:border-orange-800',
+  'Project Staff': 'bg-purple-50 dark:bg-purple-900/20 text-purple-700 dark:text-purple-300 border-purple-100 dark:border-purple-800',
 }
 
 export default function StudentsPage() {
   const phd = students.filter((s) => s.program === 'PhD' && !s.isAlumni)
   const mtech = students.filter((s) => s.program === 'MTech' && !s.isAlumni)
   const interns = students.filter((s) => s.program === 'Intern' && !s.isAlumni)
+  const projectStaff = students.filter((s) => s.program === 'Project Staff' && !s.isAlumni)
   const groups = [
     { label: 'PhD Scholars', data: phd },
     { label: 'M.Tech Students', data: mtech },
     { label: 'Interns', data: interns },
+    { label: 'Project Staff', data: projectStaff },
   ]
 
   return (
