@@ -208,7 +208,7 @@ export function PageHeader({ label, title, subtitle }) {
         {label}
         <span style={{ width: 32, height: 1, background: "var(--accent)", display: "block" }} />
       </div>
-      <h1 style={{ fontSize: 48, fontWeight: 700, color: "var(--text-primary)", marginBottom: subtitle ? 16 : 0 }}>{title}</h1>
+      <h1 style={{ fontSize: "clamp(28px, 8vw, 48px)", fontWeight: 700, color: "var(--text-primary)", marginBottom: subtitle ? 16 : 0 }}>{title}</h1>
       {subtitle && <p style={{ fontSize: 16, color: "var(--text-secondary)", maxWidth: 560, margin: "0 auto", lineHeight: 1.7 }}>{subtitle}</p>}
     </div>
   );

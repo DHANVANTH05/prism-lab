@@ -67,24 +67,43 @@ a { color: inherit; }
   .desktop-nav { display: none !important; }
   .mobile-nav-btn { display: flex !important; }
 
+  /* Hero PRISM text */
   h1 { font-size: clamp(80px, 22vw, 160px) !important; }
 
+  /* Page header titles (Publications, Research, Infrastructure etc) */
+  div[style*="padding: 106px"] h1 {
+    font-size: clamp(28px, 8vw, 40px) !important;
+    word-break: break-word !important;
+  }
+
+  /* Page header padding */
+  div[style*="padding: 106px"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    overflow: hidden !important;
+  }
+
+  /* Two column grids → single column */
   div[style*="grid-template-columns: 1fr 1fr"],
   div[style*="grid-template-columns: repeat(3"],
+  div[style*="grid-template-columns: repeat(3,"],
   div[style*="grid-template-columns: 1.4fr"],
   div[style*="grid-template-columns: 1.5fr"] {
     grid-template-columns: 1fr !important;
   }
 
+  /* Stats → 2x2 grid */
   div[style*="repeat(4, 1fr)"] {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 
+  /* Flex rows → column on mobile */
   div[style*="display: flex"][style*="gap: 44"],
   div[style*="display: flex"][style*="gap: 36"] {
     flex-direction: column !important;
   }
 
+  /* Section padding */
   section, div[style*="padding: 88px"],
   div[style*="padding: 80px"],
   div[style*="padding: 72px"],
